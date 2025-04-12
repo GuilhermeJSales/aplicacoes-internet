@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="mini-curriculo.html"
+              >Mini Currículo - Dr.Robervando Paixão</a
+            >
+          </li>
+          <li><a href="especialidade.html">especialidade</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <form>
+        <p>
+          Agende sua consulta. Por favor, indique sua preferencia por dia e
+          horário. Após checarmos a disponibilidade entraremos em contato com
+          você para confirmação
+        </p>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="telefone">telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required />
+        <label for="consultorio">Consultório de preferência:</label>
+        <select name="consultorio" id="consultorio">
+          <option value="ICCAT">ICCAT</option>
+          <option value="outro">Outro</option>
+        </select>
+        <label for="data">Data da consulta:</label>
+        <input type="date" id="data" name="data" />
+        <label for="indicacao">Como chegou ao nosso site?</label>
+        <select name="indicacao" id="indicacao">
+          <option value="Google">Google</option>
+          <option value="WhatsApp">WhatsApp</option>
+          <option value="outro">Outro</option>
+        </select>
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" id="mensagem"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Ajax - Professor Particular</title>
+  </head>
+  <body>
+    <header class="menu container">
+      <img class="logo" src="./assets/ajax.png" alt="logotipo" />
+
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./musica.html">Músicas</a></li>
+          <li><a href="./aulas-gratis.html">Aulas Gratuitas</a></li>
+          <li><a href="./planos.html">Planos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="banner">
+      <div class="infos-banner container">
+        <h1>Ajax Professor Particular</h1>
+        <p>
+          Aulas particulares de Python, Java, C# e R, do básico ao avançado.<br />Domine
+          a programação com um ensino personalizado e prático!
+        </p>
+      </div>
+    </section>
+
+    <main class="container contato">
+      <section>
+        <h1>Entre em contato</h1>
+        <form action="" method="get">
+          <fieldset>
+            <legend>Entre em contato para tirar suas dúvidas</legend>
+            <label for="nome">Nome:</label>
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Digite seu nome"
+            />
+
+            <label for="email">E-mail:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu e-mail"
+            />
+            <label for="tecnologias"
+              >Sobre qual tecnologia vc tem dúvidas?</label
+            >
+            <select name="tecnologias" id="tecnologias">
+              <option value=""></option>
+              <option value="Java">Java</option>
+              <option value="Python">Python</option>
+              <option value="C#">C#</option>
+              <option value="r">Linguagem R</option>
+            </select>
+            <label for="mensagem">Digite sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem"></textarea>
+            <button type="submit">Enviar</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Desenvolvido para Aula de Aplicações para internet - Guilherme Jesus
+        Sales
+      </p>
+    </footer>
+  </body>
+</html>

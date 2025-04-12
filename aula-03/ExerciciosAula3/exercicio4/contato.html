@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <h1>Contato</h1>
+    <nav>
+      <ul>
+        <li><a href="./exercicio4.html">Home</a></li>
+        <li><a href="./receita.html">Receita</a></li>
+        <li><a href="./video.html">Vídeo</a></li>
+        <li><a href="./contato.html">Contato</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <form method="get">
+        <fieldset>
+          <legend>Contato para encomendas:</legend>
+    
+          <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+          </div>
+       
+          <div>
+            <label for="nascimento">Data do evento:</label>
+            <input type="date" id="nascimento" name="nascimento">
+          </div>
+    
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+          </div>
+    
+          <div>
+            <label for="genero">Gênero:</label>
+    
+            <div>
+              <input type="radio" id="masculino" name="genero" value="Masculino">
+              <label for="masculino">Masculino</label>
+            </div>
+    
+            <div>
+              <input type="radio" id="feminino" name="genero" value="feminino">
+              <label for="feminino">Feminino</label>
+            </div>
+    
+          </div>
+    
+          <div>
+            <label for="raca">Tema:</label>
+            <select name="raca" id="raca">
+              <option value=""></option>
+              <option value="branca">Heróis</option>
+              <option value="negra">Bonecas</option>
+              <option value="parda">Futebol</option>
+              <option value="Amarela">Volei</option>
+              <option value="indigena">Jogos</option>
+              <option value="desconhecida">Outros</option>
+            </select>
+          </div>
+    
+          <div>
+            <label for="indicacao">Como conheceu nosso site?:</label>
+                <div>
+              <input type="checkbox" name="indicacao" value="internet" id="internet">
+              <label for="internet">Internet</label>
+            </div>
+            <div>
+              <input type="checkbox" name="indicacao" value="amigos" id="amigos">
+              <label for="amigos">Amigos</label>
+            </div>
+            <div>
+              <input type="checkbox" name="indicacao" value="familiares" id="familiares">
+              <label for="familiares">Familiares</label>
+            </div>
+            <div>
+              <input type="checkbox" name="indicacao" value="outros" id="outros">
+              <label for="outros">Outros</label>
+            </div>
+          </div>
+
+          <div>
+            <label for="mensagem">Deixe aqui sua encomenda:</label><br>
+            <textarea name="mensagem" id="mensagem"></textarea>
+          </div>
+    
+    
+          <button type="submit">Enviar</button>
+    
+          </select>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
