@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image: url('../imagens/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#formulario{
+background: rgba(255, 255, 255, 0.4);
+backdrop-filter: blur(10px);
+box-shadow: 0 0 15px 3px rgba(0, 0, 0, .3);
+padding: 2.25rem;
+border-radius:10px;
+width: 350px;
+}
+
+p{
+  font-size:1.875rem;
+  text-align: center;
+  margin-bottom:.625rem;
+}
+
+.campo{
+  display:flex;
+  align-items: center;
+  gap:.625rem;
+  margin-bottom:.875rem;
+}
+
+.campo span{
+  font-size:1.125rem;
+}
+
+.campos{
+  padding:8px;
+  width: 100%;
+  border-radius: 3px;
+  border:none;
+
+}
+
+a{
+  display:flex;
+  justify-content: flex-end;
+  margin-bottom:.875rem;
+  color:#773602;
+  text-decoration: none;
+}
+
+#logar{
+  width: 100%;
+  background-color:#fc7d12;
+  font-size:1.25rem;
+  padding:1.25rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
